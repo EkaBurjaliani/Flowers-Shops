@@ -225,7 +225,6 @@ div.media {
     top:200px;
     bottom: 200px;
     
-    
 
 }
 p.logo2 {
@@ -254,7 +253,7 @@ a.right:hover {
     text-align: center;
 }
 .customer-review-area {
-    width: 100%;
+    width: 90%;
     height: 600px;
     border: 30px solid #11484e;
     margin: auto;
