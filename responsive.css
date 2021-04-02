@@ -1,13 +1,166 @@
-<div class="fixed-top">
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-      <h5 class="text-white h4">Collapsed content</h5>
-      <span class="text-muted">Toggleable via the navbar brand.</span>
-    </div>
-  </div>
-  <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </nav>
-</div>
+@media screen and (max-width: 800px) {
+ body {
+  height: 2230px;
+  width: 1300px;
+}
+header {
+  height: 120px;
+  
+}
+nav {
+  height: 100%;
+  width: 98%;
+}
+p.logo {
+  margin-left: 20px; 
+}
+a.navbar-brand {
+  display: flex;
+  width: 100px;
+  margin-top: 6px;
+}
+div.main-area {
+  height: 1600px;
+  width: 100%; 
+  margin-top: 140px; 
+}
+
+div.main-area {
+  height: 400px;
+  flex-direction: column;  
+  background-image: url(https://images.unsplash.com/photo-1470974912775-03c7583f4b2d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80);
+  margin-top: 140px;
+}
+div.main-text{
+  width: 100%;
+}
+div.main-photo {
+  display: none;
+}
+div.p-text {
+  width: 800px;
+  margin-top: 10px;
+}
+p.creating {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #fad5c9;
+}
+p.cursor {
+  margin-top: 0px;
+  color: #fad5c9;
+}
+div.add {
+  height: 100px;
+  width: 100%;
+  background-color: #11484e;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  
+}
+a.add-a {
+  font-family: 'New Tegomin', serif;
+    font-size: 30px;
+    color: #f5c9bb;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+a.add-a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 46px;  
+  text-align: center;
+  margin-top: 5px;
+}
+p.add-p {
+    font-size: 32px;
+    color: #F7D8C7;
+    padding-left: 0px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+div.central {
+  height: 70%;
+  width: 99%;
+  margin: 50px 5px 10px 5px;
+  
+}
+div.collor {
+  display: none;
+  width: 1px;
+}
+div.media {
+  display: none;
+  width: 1px;
+}
+a.right {
+  display: none;
+  font-size: 1px;
+}
+p.logo2 {
+  display: none;
+  font-size: 1px;
+}
+.post-cards-area {
+  width: 100%!important;
+  height: 100%;
+  margin: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+div.card.mb-3 {
+  width: 100%;
+  height: 300px;
+  margin: 0px;
+  margin: auto;
+}
+.row.no-gutters {
+  height: 300px;
+}
+.col-md-8 {
+  margin-top: 0px;
+
+}
+.card-body {
+  /* display: none; */
+
+}
+.col-md-4  {
+  display: none;
+  
+}
+.card-title {
+  font-family: 'New Tegomin', serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+.card-text {
+  font-family: 'New Tegomin', serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+.customer-review-area {
+  width: 95%;
+  height: 600px;
+  border: 30px solid #11484e;
+  margin: auto;
+  margin-top: 40px;
+
+}
+div.phone-number {
+  padding: 0px;
+}
+div.socmedia {
+  padding: 0px;
+}
+#input-last.form-control {
+  height: 100px;
+  width: 50px;
+}
+
+}

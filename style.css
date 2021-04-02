@@ -34,8 +34,7 @@ p.logo {
     font-size: 32px;
     color: #F7D8C7;
     padding-top: 10px;
-    margin-left: 80px;
-   
+    margin-left: 80px; 
 }
 a.navbar-brand {
     display: flex;
@@ -101,7 +100,7 @@ ul.navbar-nav li a {
     font-size: 14px;
     
 }
-..dropdown-menu :active a {
+.dropdown-menu :active a {
     background-color: seagreen;
 }
 div.main-area {
@@ -125,10 +124,20 @@ div.main-text {
     height: 100%;
     width: 35%;
 }
+div.add {
+    height: 1px;
+    width: 1px;
+}
 div.p-text {
     height: 300px;
     width: 400px;
     margin: auto;
+}
+a.add-a {
+    color: transparent;
+}
+p.add-p {
+    color: transparent;
 }
 
 p.creating {
@@ -198,7 +207,6 @@ div.post-cards-area {
     height: 100%;
     width: 100%;
     object-fit: cover;
-
 }
 .col-md-8 {
     background-color: #f5bfa1;
@@ -208,6 +216,9 @@ div.card-body {
 }
 p.card-text {
     margin-bottom: 40px;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: 'New Tegomin', serif;
 }
 div.collor {
     width: 20%;
@@ -243,8 +254,6 @@ a.right {
     margin-bottom: 20px;
     display: inline-block;
    
-
-
 }
 a.right:hover {
     color: #FFFFFF;
@@ -263,6 +272,7 @@ a.right:hover {
 .card-title {
     font-family: 'New Tegomin', serif;
     font-weight: 600;
+    font-size: 30px;
 }
 .review-title {
     width: 25%;
