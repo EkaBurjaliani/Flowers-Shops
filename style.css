@@ -39,7 +39,7 @@ p.logo {
 a.navbar-brand {
     display: flex;
     width: 200px;
-    margin-top: 6px;
+    margin-top: 15px;
 }
 p.twilight-events {
     font-family: 'New Tegomin', serif;
@@ -65,12 +65,24 @@ p.icon {
     padding-top: 10px;
     font-weight: 100;
 }
-ul.navbar-nav {
+
+
+.navbar-nav.mr-auto.mt-2.mt-lg-0 {
     width: 70%;
-    margin-left: 230px;
+    margin-left: 300px;
     display: flex;
     justify-content: space-between;
-    padding-left: 90px;
+    padding-left: 130px;
+
+}
+li.nav-item.active.straight {
+    margin-top: 20px;
+
+}
+
+li.nav-item.dropdown.straight {
+    margin-top: 20px;
+
 }
 ul.navbar-nav li a {
     color:  #f8d0ba!important;
@@ -190,7 +202,7 @@ div.post-cards-area {
 }
 .card.mb-3 {
     height: 300px;
-    max-width: 1220px;
+    width: 1220px;
     margin-bottom: 20px;
     border: none;
 }
@@ -296,7 +308,7 @@ a.right:hover {
 
 div#card-div {
     height: 450px;
-    width: 60px;
+    width: 20%;
     margin: 0px 10px 10px 10px;
     background-color:#FAC6AA;
     border: transparent;
